@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin("*") // handle Cross-Origin Resource Sharing (CORS) policies
 @AllArgsConstructor
 @RestController
 @RequestMapping("/api/pirates")
